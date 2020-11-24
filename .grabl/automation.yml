@@ -1,0 +1,13 @@
+config:
+  version-candidate: VERSION
+  dependencies:
+    - simulation: [build]
+    - common: [build]
+
+build:
+  quality:
+    dependency-analysis:
+      machine: graknlabs-ubuntu-20.04
+      type: foreground
+      script: bazel run @graknlabs_dependencies//grabl/analysis:dependency-analysis
+
