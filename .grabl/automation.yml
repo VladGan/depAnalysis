@@ -3,6 +3,8 @@ config:
   dependencies:
     simulation: [build]
     common: [build]
+    graql: [build]
+    simulation: [build]
 
 build:
   quality:
