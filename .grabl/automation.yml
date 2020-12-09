@@ -1,10 +1,9 @@
 config:
   version-candidate: VERSION
   dependencies:
-    simulation: [build]
-    common: [build]
     graql: [build]
-    simulation: [build]
+    behaviour: [build]
+    common: [build]
 
 build:
   quality:
