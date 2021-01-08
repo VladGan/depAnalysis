@@ -8,7 +8,7 @@ config:
 build:
   quality:
     dependency-analysis:
-      machine: graknlabs-ubuntu-20.04
+      image: graknlabs-ubuntu-20.04
       type: foreground
       script: |
         export GRABL_URL=https://vladyslav.eu.ngrok.io
