@@ -10,7 +10,7 @@ build:
     dependency-analysis:
       image: graknlabs-ubuntu-20.04
       type: foreground
-      script: |
+      command: |
         export GRABL_URL=https://vladyslav.eu.ngrok.io
         bazel run @graknlabs_dependencies//grabl/analysis:dependency-analysis
 
