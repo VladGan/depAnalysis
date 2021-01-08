@@ -2,7 +2,7 @@ config:
   version-candidate: VERSION
   dependencies:
     graql: [build]
-    behaviour: [build]
+    behaviour: [release]
     common: [build]
 
 build:
